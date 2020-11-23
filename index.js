@@ -15,8 +15,7 @@ app.set('public', path.join(__dirname, 'public'));
 app.set('view engine', 'jade');
 
 app.get('/',(req,res)=>{
-  console.log("Running")
-  res.send("Running")
+  res.sendFile("")
 })
 
 //Getting data from Form and to send email to the user
